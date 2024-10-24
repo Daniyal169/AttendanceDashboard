@@ -1,0 +1,61 @@
+.MuiTableRow-root>* {
+    padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head>* {
+    font-weight: bold !important;
+}
+
+.tableContainer {
+    box-shadow: 0px 13px 20px 0px rgba(128, 128, 128, 0.16);
+    background: #d8e2e7;
+    /* Correct the double '#' */
+    border-radius: 0.9rem;
+    overflow-y: scroll !important;
+    max-height: 250px;
+}
+
+.tableContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.Table td,
+th {
+    border: none !important;
+    cursor: pointer;
+}
+
+.Table:first-child {
+    border-radius: 0.7rem !important;
+}
+
+.status {
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.Details {
+    color: #00b5ff !important;
+}
+
+.Details select {
+    padding: 7px 8px;
+    border-radius: 9px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Table {
+        width: 170%;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Table {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 23rem;
+    }
+}

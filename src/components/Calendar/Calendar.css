@@ -1,0 +1,5 @@
+.calendar {
+    border-radius: 0.7rem;
+    background: linear-gradient(180deg, #e6f3f5 0%, #dee6e9 100%) !important;
+    box-shadow: 0px 1px 10px 0px #d7f0f5;
+}

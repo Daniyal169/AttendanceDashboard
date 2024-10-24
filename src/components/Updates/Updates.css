@@ -1,0 +1,36 @@
+.updates {
+    width: 85%;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    font-size: 13px;
+    background: linear-gradient(180deg, #00CFFF 0%, #004B6C 100%);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+
+}
+
+.update {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 1px solid white;
+}
+
+.update>*:nth-of-type(3) {
+    margin-bottom: 1rem;
+}
+
+.update>*:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .updates {
+        position: relative;
+        width: 21rem;
+        margin-bottom: 10px;
+    }
+}
